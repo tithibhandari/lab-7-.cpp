@@ -6,7 +6,7 @@ using namespace std;
 
 //TAIL & RECURSION
  int foo (int min, int max){
-       if (min % 2==0)
+       if (min % 2==0 && min<=max)
           {
     cout << min ;     
            min = min+2;

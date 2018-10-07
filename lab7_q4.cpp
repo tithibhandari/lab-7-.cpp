@@ -8,7 +8,7 @@ using namespace std;
  int  reversed (int n ){
        //THE BASE CASE 
         if (n < 10 ){ 
-                cout << n;
+                cout << n << endl;
               }
       else {
         cout << ( n % 10 ) ;
@@ -21,7 +21,7 @@ int main (){
 cout << "please enter a number";
 cin >> n;
 reversed (n);
-cout << reversed (n) << "the reversed number is";
+
 return 0;
 
 } 
